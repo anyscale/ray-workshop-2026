@@ -1,0 +1,55 @@
+# ---------------------
+# Ray (all modules)
+# ---------------------
+ray[default]>=2.20
+
+# ---------------------
+# Data processing
+# ---------------------
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14.0
+
+# ---------------------
+# Deep learning
+# ---------------------
+torch>=2.0
+torchvision>=0.15
+transformers>=4.50
+diffusers>=0.32
+accelerate>=1.5
+
+# ---------------------
+# NLP & embeddings
+# ---------------------
+sentence-transformers>=2.0
+langdetect>=1.0
+
+# ---------------------
+# Image processing
+# ---------------------
+Pillow>=10.0
+
+# ---------------------
+# Web & serving
+# ---------------------
+fastapi>=0.100
+starlette>=0.27
+pydantic>=2.0
+requests>=2.31
+
+# ---------------------
+# Utilities
+# ---------------------
+tqdm>=4.65
+filelock>=3.0
+backoff>=2.2
+matplotlib>=3.7
+
+# ---------------------
+# Extra material dependencies
+# ---------------------
+datasets>=2.0
+peft>=0.5
+psutil>=5.9
+locust>=2.0
