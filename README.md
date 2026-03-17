@@ -16,10 +16,9 @@ This workshop is for developers and ML engineers who are new to Ray or looking t
 
 | Module | Title | Duration | Description |
 |--------|-------|----------|-------------|
-|[**Module 1**](Module1/) | Scaling Python for AI Workloads | 45 min | Learn Ray's core concepts: tasks, actors, and the object store. Understand how Ray scales Python and ML workloads, manage resources, and run distributed programs reliably. |
-|[**Module 2**](Module2/) | Building Scalable Data Pipelines | 45 min | Build scalable data pipelines with Ray Data. Ingest, transform, and preprocess large multimodal datasets. Learn streaming execution, stateful transforms, and GPU-accelerated batch inference. |
-|[**Module 3**](Module3/) | Distributed Training at Scale | 45 min | Scale model training using data and model parallelism with FSDP. Configure distributed training jobs, manage checkpoints, and integrate PyTorch with Ray Train for reliable training at scale. |
-|[**Module 4**](Module4/) | Serving Models in Production | 30 min | Build and deploy scalable inference services with Ray Serve. Learn model composition, multi-deployment architectures, FastAPI integration, and fractional GPU resource management. |
+|[**Module 1**](Module1/) | Scaling Python for AI Workloads | 45mins | Learn Ray's core concepts: tasks, actors, and the object store. Understand how Ray scales Python and ML workloads, manage resources, and run distributed programs reliably. |
+|[**Module 2**](Module2/) | Building Scalable Data Pipelines | 1.5 hrs | Build scalable data pipelines with Ray Data. Ingest, transform, and preprocess large multimodal datasets. Learn streaming execution, stateful transforms, and GPU-accelerated batch inference. |
+|[**Module 3**](Module3/) | Distributed Training at Scale | 1.5 hrs | Scale model training using data and model parallelism with FSDP. Configure distributed training jobs, manage checkpoints, and integrate PyTorch with Ray Train for reliable training at scale. |
 
 
 Each module builds on concepts from the previous one, but the notebooks include enough context to be used independently as well.
@@ -48,11 +47,7 @@ ray-workshop/
 │   ├── 02_FSDP2_RayTrain_Tutorial_LIVE.ipynb     
 │   ├── README.md                          
 │   └── extra/                               # Self-study material
-│
-└── Module4/                                 # Serving Models in Production (30 min)
-    ├── 01_Intro_Serve.ipynb               
-    ├── README.md                         
-    └── extra/                               # Self-study material
+
 ```
 
 ## Getting Started
